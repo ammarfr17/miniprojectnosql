@@ -43,16 +43,13 @@ app.delete('/api/todos/:id', async (req, res) => {
 });
 
 app.put('/api/todos/:id', async (req, res) => {
-    const { title } = req.body.title
-    const result = await Todo.findByIdAndUpdate(
+    const { title } = req.body;
+    const todo = await Todo.findByIdAndUpdate(
         req.params.id,
-        { title: title },
+        { title },
         { new: true }
     );
-    if (!result) {
-        return res.status(404).send('Todo not found');
-    }
-    res.send(result);
+    res.send(todo);
 });
 
 app.listen(port, () => {
