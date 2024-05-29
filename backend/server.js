@@ -42,6 +42,16 @@ app.delete('/api/todos/:id', async (req, res) => {
     res.send(result);
 });
 
+app.put('/api/todos/:id', async (req, res) => {
+    const { title } = req.body;
+    const todo = await Todo.findByIdAndUpdate(
+        req.params.id,
+        { title },
+        { new: true }
+    );
+    res.send(todo);
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
