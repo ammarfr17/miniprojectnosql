@@ -35,7 +35,8 @@ Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan m
 1. Clone repositori ini ke lokal Anda
 
     ```sh
-    git clone https://github.com/username/MyToDo.git
+    mkdir MyToDo (optional)
+    git clone https://github.com/MRifkiPratama/MyToDo.git
     cd MyToDo/backend
     ```
 
@@ -81,3 +82,7 @@ MyToDo/
 - Muhammad Rifki Pratama (2206828903)
 - Sharif Fatih Asad Masyhur (2206063014)
 - Valentino Farish Adrian (2206825896)
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [MIT](https://choosealicense.com/licenses/mit/) untuk informasi lebih lanjut.
