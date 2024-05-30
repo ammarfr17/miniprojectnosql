@@ -77,7 +77,7 @@ MyToDo/
 ```
 
 ## Kontributor Proyek
-Drasseta Aliyyu Darmansyah (2206062913)
-Muhammad Rifki Pratama (2206828903)
-Sharif Fatih Asad Masyhur (2206063014)
-Valentino Farish Adrian (2206825896)
+- Drasseta Aliyyu Darmansyah (2206062913)
+- Muhammad Rifki Pratama (2206828903)
+- Sharif Fatih Asad Masyhur (2206063014)
+- Valentino Farish Adrian (2206825896)
