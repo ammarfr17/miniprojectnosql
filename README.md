@@ -3,6 +3,66 @@
 MyToDo merupakan program untuk mencatat aktivitas/kegiatan dalam kesehariannya. Ini menyiratkan bahwa Anda dapat memasukkan apa saja ke dalam daftar tugas Anda.
 Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan mencatat secara akurat kapan pekerjaan Anda harus diselesaikan.
 
-## Installation 
+## Fitur
 
-...
+- Menambahkan, mengedit, dan menghapus aktivitas atau tugas 
+- Dapat mengatur jadwal kelas
+- Mengelola deadline tugas
+- Tampilan antarmuka yang user-friendly dan simpel
+
+## Teknologi yang Digunakan
+
+- Backend: Node.js
+- Database: MongoDB
+- Containerization: Docker
+
+## Instalasi
+
+### Prasyarat
+
+- [Docker](https://docs.docker.com/get-docker/) harus terinstall di sistem Anda
+- [Docker Compose](https://docs.docker.com/compose/install/) (jika menggunakan Docker Compose)
+
+### Langkah-langkah Instalasi
+
+1. Clone repositori ini ke lokal Anda
+
+    ```sh
+    git clone https://github.com/username/MyToDo.git
+    cd MyToDo
+    ```
+
+2. Bangun dan jalankan container Docker
+
+    ```sh
+    docker-compose up -d
+    ```
+
+4. Aplikasi akan berjalan di `http://localhost:3000`
+
+## Struktur Proyek
+
+```plaintext
+MyToDo/
+├── /backend
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── package-lock.json
+    ├── package.json
+    ├── server.js
+├── Frontend/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│          ├── app.js
+│          └── setupTests.js
+|   ├── .gitignore
+|   ├── package.json
+├── package-lock.json
+└── README.md
+
+## Kontributor Proyek
+Drasseta Aliyyu Darmansyah (2206062913)
+Muhammad Rifki Pratama (2206828903)
+Sharif Fatih Asad Masyhur (2206063014)
+Valentino Farish Adrian (2206825896)
