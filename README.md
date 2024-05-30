@@ -3,6 +3,13 @@
 MyToDo merupakan program untuk mencatat aktivitas/kegiatan dalam kesehariannya. Ini menyiratkan bahwa Anda dapat memasukkan apa saja ke dalam daftar tugas Anda.
 Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan mencatat secara akurat kapan pekerjaan Anda harus diselesaikan.
 
+## Tampilan Web
+
+![image](https://github.com/MRifkiPratama/MyToDo/assets/144346489/1f891698-fc8f-4978-8afd-633634e385cc)
+
+![image](https://github.com/MRifkiPratama/MyToDo/assets/144346489/92282acc-608d-4078-8d35-8c1b0591bffa)
+
+
 ## Fitur
 
 - Menambahkan, mengedit, dan menghapus aktivitas atau tugas 
@@ -16,7 +23,7 @@ Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan m
 - Database: MongoDB
 - Containerization: Docker
 
-## Instalasi
+## Cara Instalasi
 
 ### Prasyarat
 
@@ -29,7 +36,7 @@ Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan m
 
     ```sh
     git clone https://github.com/username/MyToDo.git
-    cd MyToDo
+    cd MyToDo/backend
     ```
 
 2. Bangun dan jalankan container Docker
@@ -38,11 +45,18 @@ Anda dapat memprioritaskan tugas dan menyelesaikan pekerjaan luar biasa dengan m
     docker-compose up -d
     ```
 
-4. Aplikasi akan berjalan di `http://localhost:3000`
+3. Jalankan Frontend
+   
+    ```sh
+    cd MyToDo/frontend
+    npm start App.js
+    ```
+    
+4. Aplikasi akan berjalan di `http://localhost:3000` 
 
 ## Struktur Proyek
 
-```plaintext
+```
 MyToDo/
 ├── /backend
     ├── Dockerfile
@@ -60,6 +74,7 @@ MyToDo/
 |   ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 ## Kontributor Proyek
 Drasseta Aliyyu Darmansyah (2206062913)
