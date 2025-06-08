@@ -16,7 +16,8 @@ db.once('open', function () {
     console.log('Connected to MongoDB Muhammad Rifki Pratama');
 });
 
-const TodoSchema = new mongoose.Schema({
+const TodoSchema `9
+`= new mongoose.Schema({
     title: String,
     completed: Boolean,
 });
